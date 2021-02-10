@@ -45,7 +45,9 @@ export default {
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
+  axios: {
+    baseURL: 'backer-backend.buildwithangga.id/'
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
